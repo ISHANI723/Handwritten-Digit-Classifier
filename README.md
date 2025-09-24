@@ -17,10 +17,15 @@ MNIST Dataset: Contains 70,000 grayscale images of handwritten digits (28x28 pix
 
 # Technologies:
 -Python 3.x
+
 -TensorFlow / Keras – Deep Learning
+
 -Pillow (PIL) – Image processing
+
 -NumPy – Array manipulation
+
 -Matplotlib – Image visualization
+
 -Google Colab – Cloud-based Python execution (optional)
 
 # How it Works:
@@ -31,8 +36,10 @@ MNIST Dataset: Contains 70,000 grayscale images of handwritten digits (28x28 pix
 
 2. CNN Architecture:
    Convolutional layers to extract features
+   
    Max-pooling layers to reduce dimensions
+   
    Fully connected layers for classification
 
-3. Prediction:
+4. Prediction:
    Upload image → preprocess → CNN predicts → output displayed with the uploaded image.
